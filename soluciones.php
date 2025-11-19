@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Soluciones para el Río Achichilco</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #f0f7f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2a9d8f, #264653);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 2.6em;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #264653;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #2a9d8f;
+        }
+
+        main {
+            max-width: 950px;
+            margin: 40px auto;
+            padding: 20px 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .solucion {
+            background-color: #e9f5f1;
+            padding: 20px;
+            border-left: 6px solid #2a9d8f;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .solucion:hover {
+            transform: scale(1.03);
+        }
+
+        .solucion h2 {
+            color: #2a9d8f;
+            margin-bottom: 10px;
+        }
+
+        .solucion p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .mensaje-final {
+            background-color: #2a9d8f;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            border-radius: 10px;
+            margin-top: 40px;
+        }
+
+        .mensaje-final h2 {
+            border: none;
+            color: white;
+            margin: 0;
+        }
+
+        .mensaje-final p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #264653;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #2a9d8f;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Soluciones para el Río Achichilco</h1>
+        <p>Propuestas para restaurar y proteger este importante recurso natural</p>
+    </header>
+
+    <nav>
+        <a href="index.php">Inicio</a>
+        <a href="causas.php">Causas</a>
+        <a href="consecuencias.php">Consecuencias</a>
+        <a href="comentarios.php">Comentarios</a>
+    </nav>
+
+    <main>
+        <div class="solucion">
+            <h2>1. Campañas de limpieza comunitaria</h2>
+            <p>
+                Una de las acciones más efectivas es promover <strong>campañas de limpieza del río</strong> con la 
+                participación de estudiantes, vecinos y autoridades. Estas jornadas permiten recolectar residuos sólidos, 
+                mejorar el aspecto del entorno y crear conciencia sobre el impacto de nuestros hábitos en el medio ambiente. 
+                En CECyTEJ Ixtlahuacán del Río ya se han impulsado iniciativas de este tipo con excelentes resultados.
+            </p>
+        </div>
+
+        <div class="solucion">
+            <h2>2. Implementación de plantas de tratamiento</h2>
+            <p>
+                Es esencial instalar <strong>plantas de tratamiento de aguas residuales</strong> para reducir la contaminación 
+                que llega al cauce del río. Estas infraestructuras permiten purificar el agua antes de ser vertida, 
+                evitando la proliferación de bacterias, malos olores y la pérdida de especies acuáticas. 
+                Con apoyo del gobierno y la comunidad, este tipo de soluciones técnicas pueden marcar una diferencia duradera.
+            </p>
+        </div>
+
+        <div class="solucion">
+            <h2>3. Educación ambiental</h2>
+            <p>
+                La educación es la base para lograr un cambio real. Promover programas de 
+                <strong>educación ambiental</strong> en las escuelas y espacios públicos ayuda a que las nuevas generaciones 
+                comprendan la importancia de cuidar el agua, evitar tirar basura y participar en acciones ecológicas. 
+                CECyTEJ 08, por ejemplo, puede liderar campañas informativas y talleres sobre el cuidado del Río Achichilco.
+            </p>
+        </div>
+
+        <div class="solucion">
+            <h2>4. Colaboración entre autoridades y comunidad</h2>
+            <p>
+                La recuperación del Río Achichilco requiere la colaboración de todos. 
+                Las <strong>autoridades municipales, instituciones educativas y habitantes</strong> deben trabajar juntos en 
+                estrategias de reforestación, control de desechos y vigilancia ambiental. 
+                Solo con el compromiso de la comunidad se podrá asegurar un río limpio y saludable para las futuras generaciones.
+            </p>
+        </div>
+
+        <div class="mensaje-final">
+            <h2>💧 ¡El cambio comienza contigo!</h2>
+            <p>
+                Cada acción, por pequeña que parezca, puede marcar una gran diferencia.  
+                Cuidar el Río Achichilco es cuidar la vida, el agua y el futuro de nuestra comunidad.
+            </p>
+        </div>
+    </main>
+
+    
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?php
+include("conexion.php");
+
+$nombre = $_POST['nombre'];
+$visita = $_POST['visita'];
+$opinion = $_POST['opinion'];
+$comentario = $_POST['comentario'];
+
+$consulta = "INSERT INTO formulario (nombre, visita, opinion, comentario)
+VALUES ('$nombre', '$visita', '$opinion', '$comentario')";
+
+mysqli_query($conexion, $consulta);
+echo "Gracias por compartir tu opinión sobre el Río Achichilco.";
+?>

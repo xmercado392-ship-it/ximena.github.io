@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Consecuencias de la Contaminación del Río Achichilco</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #f0f7f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2a9d8f, #264653);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 2.4em;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #264653;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #2a9d8f;
+        }
+
+        main {
+            max-width: 950px;
+            margin: 40px auto;
+            padding: 20px 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #264653;
+            border-left: 6px solid #2a9d8f;
+            padding-left: 10px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #e9f5f1;
+            margin-bottom: 15px;
+            padding: 15px 20px;
+            border-left: 6px solid #2a9d8f;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            font-size: 1.05em;
+        }
+
+        p {
+            line-height: 1.7;
+            font-size: 1.1em;
+            text-align: justify;
+            margin-top: 25px;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .galeria img {
+            width: 100%;
+            border-radius: 10px;
+            border: 4px solid #2a9d8f;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+        }
+
+        .galeria img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Consecuencias de la Contaminación del Río Achichilco</h1>
+        <p>Impactos ambientales, sociales y en la comunidad educativa</p>
+    </header>
+
+    <nav>
+        <a href="index.php">Inicio</a>
+        <a href="causas.php">Causas</a>
+        <a href="soluciones.php">Soluciones</a>
+        <a href="comentarios.php">Comentarios</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Principales consecuencias</h2>
+            <ul>
+                <li>
+                    <strong>1. Muerte de peces y animales acuáticos:</strong>  
+                    La contaminación ha reducido drásticamente los niveles de oxígeno en el agua, provocando la muerte de peces, ranas y otras especies que dependen del ecosistema acuático del Río Achichilco.
+                </li>
+
+                <li>
+                    <strong>2. Mal olor y contaminación visual:</strong>  
+                    Los residuos acumulados generan malos olores y una apariencia desagradable, afectando tanto el entorno natural como la imagen del municipio ante visitantes y pobladores.
+                </li>
+
+                <li>
+                    <strong>3. Riesgos de salud para las personas:</strong>  
+                    El contacto con el agua contaminada puede causar enfermedades gastrointestinales, infecciones en la piel y problemas respiratorios, especialmente entre niños y adultos mayores.
+                </li>
+
+                <li>
+                    <strong>4. Daños al ecosistema local:</strong>  
+                    La pérdida de biodiversidad, el deterioro del suelo y la contaminación del aire circundante afectan gravemente el equilibrio ambiental de Ixtlahuacán del Río y sus comunidades cercanas.
+                </li>
+            </ul>
+        </section>
+
+        
+        <div class="galeria">
+            <img src="fauna.jpg" alt="Fauna afectada por la contaminación">
+            <img src="basura.jpg" alt="Basura acumulada en el río">
+            <img src="agua.jpg" alt="Agua contaminada">
+            <img src="inundacion.jpg" alt="Inundación en CECyTEJ 08">
+        </div>
+
+        <section>
+            <h2>Impacto en la comunidad educativa</h2>
+            <p>
+                Durante la temporada de lluvias, el exceso de agua y el desbordamiento parcial del Río Achichilco provocaron <strong>inundaciones en el CECyTEJ Plantel 08 Ixtlahuacán del Río</strong>. 
+                Este hecho generó preocupación entre las autoridades municipales y educativas debido al riesgo que representaba para los estudiantes y habitantes de la zona.  
+                Como medida preventiva, se realizaron bloqueos temporales en las calles aledañas al plantel, con el objetivo de evitar accidentes y proteger a la comunidad.  
+                Este evento evidenció la necesidad urgente de implementar <strong>acciones de limpieza, prevención y planeación urbana</strong> para reducir los riesgos en futuras temporadas de lluvia.
+            </p>
+        </section>
+    </main>
+
+</body>
+</html>

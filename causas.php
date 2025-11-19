@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Causas de la Contaminación del Río Achichilco</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #f0f7f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2a9d8f, #264653);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 2.4em;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #264653;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #2a9d8f;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #264653;
+            border-left: 6px solid #2a9d8f;
+            padding-left: 10px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            line-height: 1.7;
+            font-size: 1.1em;
+            text-align: justify;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            background-color: #e9f5f1;
+            margin-bottom: 15px;
+            padding: 15px 20px;
+            border-left: 6px solid #2a9d8f;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        footer {
+            background-color: #264653;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #2a9d8f;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Causas de la Contaminación del Río Achichilco</h1>
+        <p>Factores que contribuyen al deterioro de este importante ecosistema</p>
+    </header>
+
+    <nav>
+        <a href="index.php">Inicio</a>
+        <a href="consecuencias.php">Consecuencias</a>
+        <a href="soluciones.php">Soluciones</a>
+        <a href="comentarios.php">Comentarios</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Principales causas</h2>
+            <ul>
+                <li>
+                    <strong>1. Descarga de aguas residuales sin tratamiento:</strong>  
+                    Muchos hogares y pequeños establecimientos de la zona vierten sus aguas sucias directamente al río. 
+                    Esto incluye jabones, detergentes, aceites y residuos orgánicos que alteran el equilibrio natural 
+                    del ecosistema y afectan la calidad del agua.
+                </li>
+
+                <li>
+                    <strong>2. Acumulación de basura en las orillas:</strong>  
+                    La falta de depósitos adecuados y la costumbre de tirar desechos sólidos cerca del cauce 
+                    provocan la acumulación de plásticos, botellas, bolsas y otros materiales no biodegradables 
+                    que contaminan el agua y afectan a la fauna acuática.
+                </li>
+
+                <li>
+                    <strong>3. Uso excesivo de agroquímicos:</strong>  
+                    Los fertilizantes y pesticidas utilizados en la agricultura cercana al río se filtran 
+                    hacia el suelo y llegan al agua, contaminándola con sustancias tóxicas. 
+                    Estos productos pueden provocar la muerte de peces y alterar los ciclos biológicos del ecosistema.
+                </li>
+
+                <li>
+                    <strong>4. Deforestación y erosión del suelo:</strong>  
+                    La tala de árboles en las zonas aledañas al río reduce la capacidad del suelo para retener agua y 
+                    provoca deslaves. Esto incrementa la cantidad de sedimentos y materiales arrastrados hacia el cauce.
+                </li>
+
+                <li>
+                    <strong>5. Falta de educación y conciencia ambiental:</strong>  
+                    Muchas de las acciones que dañan al río se deben al desconocimiento sobre las consecuencias 
+                    ambientales de la contaminación. Promover la educación ambiental en escuelas y comunidades 
+                    es fundamental para revertir esta situación.
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    
+</body>
+</html>
